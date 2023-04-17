@@ -1,9 +1,8 @@
 <h1>Black-Jack-Game</h1>
 <p>Real Life Rummy Game in Python</p>
 <h2>Output Images:</h2>
-<img src="https://i.imgur.com/dRUx2dX.png" alt="output-image1">
-<img src="https://i.imgur.com/CFBNyNO.png" alt="output-image2">
-<img src="https://i.imgur.com/7TpzttH.png" alt="output-image3">
+<img src="blackjack_screenshot1.png" alt="output-image1">
+<img src="blackjack_screenshot2.png" alt="output-image2">
 <h2>How to Play:</h2>
 <ol>
   <li>The game is played with a standard deck of 52 cards (no jokers).</li>
