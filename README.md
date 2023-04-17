@@ -1,34 +1,29 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Black-Jack-Game</title>
-  </head>
-  <body>
-    <h1>Black-Jack-Game</h1>
-    <p>This is a Python implementation of the popular casino card game, Blackjack (also known as 21). The objective of the game is to get a hand value of 21 or as close to 21 as possible without exceeding it. </p>
-    
-    <h2>How to Play</h2>
-    <ul>
-      <li>The player is dealt two cards face up, and the dealer is dealt one card face up and one card face down.</li>
-      <li>The player must decide to "hit" (take another card) or "stand" (keep the current hand value).</li>
-      <li>The dealer reveals their face-down card and continues to "hit" until their hand value is at least 17.</li>
-      <li>The player wins if their hand value is closer to 21 than the dealer's hand value without exceeding 21. </li>
-    </ul>
-    
-    <h2>Output Images</h2>
-    <p>Here are some sample screenshots of the game:</p>
-    <img src="blackjack_screenshot1.png" alt="Blackjack Screenshot 1">
-    <img src="blackjack_screenshot2.png" alt="Blackjack Screenshot 2">
-    
-    <h2>Getting Started</h2>
-    <p>To run the game, make sure you have Python installed and run the following command in your terminal:</p>
-    <code>python blackjack.py</code>
-    
-    <h2>Contributing</h2>
-    <p>Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.</p>
-    
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License. See the LICENSE file for details.</p>
-  </body>
-</html>
+<h1>Black-Jack-Game</h1>
+<p>Real Life Rummy Game in Python</p>
+<h2>Output Images:</h2>
+<img src="https://i.imgur.com/dRUx2dX.png" alt="output-image1">
+<img src="https://i.imgur.com/CFBNyNO.png" alt="output-image2">
+<img src="https://i.imgur.com/7TpzttH.png" alt="output-image3">
+<h2>How to Play:</h2>
+<ol>
+  <li>The game is played with a standard deck of 52 cards (no jokers).</li>
+  <li>The goal is to beat the dealer by having a hand value greater than the dealer's hand value without exceeding 21.</li>
+  <li>The game begins with the dealer giving each player and themselves two cards.</li>
+  <li>Each card is assigned a point value: numbered cards are worth their face value, face cards (kings, queens, and jacks) are worth 10 points, and aces are worth 1 or 11 points.</li>
+  <li>The player can "hit" to request an additional card from the dealer, or "stand" to keep their current hand and end their turn.</li>
+  <li>The dealer must hit until their hand value is 17 or greater.</li>
+  <li>If the player's hand value exceeds 21, they "bust" and lose the game.</li>
+  <li>If the dealer busts, the player wins the game.</li>
+  <li>If the player's hand value is greater than the dealer's hand value without exceeding 21, the player wins the game.</li>
+  <li>If the dealer's hand value is greater than the player's hand value without exceeding 21, the dealer wins the game.</li>
+  <li>If both the player and the dealer have the same hand value, the game is a tie or "push".</li>
+</ol>
+<h2>Dependencies:</h2>
+<ul>
+  <li>Python 3.x</li>
+  <li>random module</li>
+  <li>time module</li>
+</ul>
+<h2>How to Run:</h2>
+<p>Simply run the python script:</p>
+<code>python blackjack.py</code>
